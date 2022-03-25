@@ -7,5 +7,5 @@ COPY ./requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 WORKDIR /app
 EXPOSE 8080
-CMD [ "main.py" ]
+CMD [ "predict-toxic.py" ]
 ENTRYPOINT [ "python" ]
