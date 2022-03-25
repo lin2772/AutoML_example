@@ -10,6 +10,6 @@ format:
 
 
 lint:
-	pylint --disable=R,C main.py
+	pylint --disable=R,C predict-toxic.py
 
 all: install lint
