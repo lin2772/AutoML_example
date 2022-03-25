@@ -9,18 +9,13 @@ flavors:
     pickled_model: model.pkl
     serialization_format: cloudpickle
     sklearn_version: 0.24.1
-model_uuid: d40d337d5f354603b178c5b106a46d67
-run_id: 016a13326ef84f4892ac8ff6f625df8d
+model_uuid: fac2840589e348cb8df04d4c46abc621
+run_id: feb38f5177b94819a9d58f0234e059fb
 saved_input_example_info:
   artifact_path: input_example.json
   pandas_orient: split
   type: dataframe
 signature:
-  inputs: '[{"name": "author", "type": "string"}, {"name": "published", "type": "string"},
-    {"name": "title", "type": "string"}, {"name": "text", "type": "string"}, {"name":
-    "language", "type": "string"}, {"name": "site_url", "type": "string"}, {"name":
-    "main_img_url", "type": "string"}, {"name": "type", "type": "string"}, {"name":
-    "title_without_stopwords", "type": "string"}, {"name": "text_without_stopwords",
-    "type": "string"}, {"name": "hasImage", "type": "double"}]'
+  inputs: '[{"name": "tweet", "type": "string"}]'
   outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
-utc_time_created: '2022-03-16 18:43:36.063414'
+utc_time_created: '2022-03-24 04:01:43.744139'
